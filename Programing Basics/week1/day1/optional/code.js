@@ -1,0 +1,1 @@
+// this varibale is the value for likeCount that equal 0
