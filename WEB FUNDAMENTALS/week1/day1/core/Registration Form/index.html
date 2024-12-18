@@ -9,24 +9,24 @@
      <h1>Registration Form</h1>
     <form action="">
         <div>
-            <label for="first_name">First Name:*</label>
-            <input type="text">  
+            <label aria-required="true" for="first_name">First Name:*</label>
+            <input type="text" id="first_name" placeholder="name" required>  
         </div>
         <div>
             <label for="last_name">Last Name:*</label>
-            <input type="text">
+            <input type="text" placeholder="last_name" required>
         </div>
         <div>
             <label for="email">Email address:*</label>
-            <input type="email">
+            <input type="email" placeholder="email" required>
         </div>
         <div>
             <label for="Password">Passeword:*</label>
-            <input type="Passeword">
+            <input type="Password" placeholder="********"required>
         </div>
         <div>
             <label for="confirm_password">Confirm Password</label>
-            <input type="Passeword">
+            <input type="Password" placeholder="********" required>
         </div>
         <div>
             <label for="biryhday">BIirthday</label>
@@ -35,13 +35,13 @@
         <div>
             <label for="gender">Gender Identity</label> <br>
             <label for="male">male</label>
-            <input type="radio">
+            <input type="radio" name="gender">
             <label for="female">Female</label>
-            <input type="radio">
+            <input type="radio" name="gender">
             <label for="non_binary">non-binary></label>
-            <input type="radio">
-            <label for="no_answer">I PREFER NOT TO ANSWER</label>
-            <input type="radio">
+            <input type="radio" name="gender">
+            <label for="no_answer">I PREFER NOT TO ANSWER </label>
+            <input type="radio" name="gender">
         </div>
         <div>
             <p>A short descirption about my selef</p>

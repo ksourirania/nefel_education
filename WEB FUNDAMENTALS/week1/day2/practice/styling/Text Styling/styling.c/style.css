@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+}.container{
+    width: 1000px;
+    font-family: cursive;
+}
+.black{
+    padding: 10px;
+    margin-top: 15px;
+    font-size:20px;
+    text-align: left;
+    color:white ;
+    background-color:black
+  
+}
+span{
+    color: aqua;
+}
+.lilac{
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: lighter;
+    text-align: center;
+    background-color:#663399 ;
+    color:white
+ 
+}
+.blue{
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: lighter;
+    color: blue;
+    text-align: right;
+    background-color: #9fc5f8;
+    text-decoration: underline;
+}
+span{
+    color: aqua;
+}
