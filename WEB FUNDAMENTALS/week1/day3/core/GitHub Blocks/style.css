@@ -1,0 +1,43 @@
+*{ padding: 0;
+    margin: 0;
+ }
+ h1 {padding: 20px;
+    margin: 20px;
+    color:grey ;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+ }
+ .box1{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    background-color:#58c4df ;
+
+ }
+ .box2{
+    margin: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #d589af;
+
+ }
+ .box3{
+    margin: 20px;
+    justify-content: space-around;
+    display: flex;
+    background-color: aliceblue;
+ }
+ 
+
+
+ .link{
+    padding: 15px;
+    margin: 20px;
+text-align: center;
+color: gray;
+ }
+ .a{color: blueviolet
+
+ }
