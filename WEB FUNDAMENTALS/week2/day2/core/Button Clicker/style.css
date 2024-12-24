@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    
+    margin:0 auto;
+    
+    width: 80%;
+    background-color: beige;
+
+}
+.navbar{
+    background-color:#CCCCCC ;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    width: 100%;
+    
+}
+.navbar h1{
+    flex:3;
+    padding: 10px;
+}
+.navbar input{
+    display: flex;
+    flex:3 ;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid black;
+    height: 10px;
+    align-items: center;
+}
+.navbar button{
+   display: flex;
+    padding: 10px;
+    margin: 20px;
+    width: 60px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px black;
+    
+}
+  /* main */
+.main{
+margin: 15px 0;
+display: flex;
+flex-direction: column;
+gap: 15px;
+flex: 3;
+}
+.mainleft{
+    border: 2px solid black;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+    width: 300px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.btn{ 
+    background-color:orange ;
+    width: 100px;
+}
+
+.mainright{
+    border: 2px solid black;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+    width: 150px;
+    flex-direction: column;
+    height: 100px;
+    vertical-align: top;
+    margin: 15px 0;
+
+}
+.bigmain{
+    margin: 15px 0;
+    display: flex;
+   gap: 15px;
+   align-items:start;
+   justify-content: center;
+   
+}
+.btn2{
+    background-color: green;
+    color: black;
+   width: 100px;
+}
