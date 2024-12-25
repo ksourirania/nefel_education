@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>DojoWeather</h1>
+            <ul>
+                <li onclick="loding()"><a href="">burbank</a></li>
+                <li onclick="loding()" ><a href="">Chigago</a></li>
+                <li onclick="loding()"><a href="">dalas</a></li>
+                
+            </ul>
+
+        </div>
+        <div class="main"> 
+            <div class="subnav">
+                <div><h2>San Jose</h2>
+                </div>
+                <div class="tem">
+                   <p>show temperature</p>
+                   <select name="temperature" onchange="change(this)" > 
+                       <option value="C">°C</option>
+                       <option value="F">°F</option>
+                   </select>
+                </div>
+            </div>
+             <div class="row">
+                <div class="wither">
+                        <h1>today</h1>
+                        <img src="./assets/some_rain.png" alt="rain">
+                        <p>some rain</p>
+                        <p class="temperature">
+                            <span  class="hight">24°</span>
+                            <span class="low">18°</span>
+                        </p>
+
+                    </div>
+                    <div class="wither">
+                        <h1>tomorow</h1>
+                        <img src="./assets/some_sun.png" alt="sun">
+                        <p>SUN</p>
+                        <p class="temperature">
+                            <span class="hight" >27°</span>
+                            <span class="low">19°</span>
+                        </p>
+
+                    </div>
+                    <div class="wither">
+                        <h1>friday</h1>
+                        <img src="./assets/some_clouds.png" alt="clouds">
+                        <p>some CLOUDS</p>
+                        <p class="temperature">
+                            <span class="hight" >21°</span>
+                            <span class="low" >16°</span>
+                        </p>
+
+                    </div>
+                    <div class="wither">
+                        <h1>sturday</h1>
+                        <img src="./assets/some_sun.png" alt="sun">
+                        <p> SUN</p>
+                        <p class="temperature">
+                            <span class="hight">27°</span>
+                            <span class="low">21°</span>
+                        </p>
+
+                    </div>
+
+
+             </div>
+            </div>
+            
+           
+
+        </div>
+        <div class=" footer"> 
+            <div class="cookies">
+                <img src="./assets/cookie.png" alt="">
+                 <div class="text">
+                    <h2>stop! cookie time</h2>
+                    <p>we use kcookes (sadly nott the edinle ones ) to personalize <br>content and ads to proved social media featur and to <br> analyse 
+                    our traffic <a href="#">read more</a></p>
+                </div>
+                <button class="btn" onclick="accept()">I Accept</button>
+
+            </div>
+
+        </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ <script src="script.js"></script>
+</body>
+</html>
