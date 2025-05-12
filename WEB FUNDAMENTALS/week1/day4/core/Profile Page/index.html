@@ -7,94 +7,143 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-       <div class="navbar">
-        <h1>profil</h1>
-        <div>
-            <ul>
-                <li"><a href="#">home</a></li>
-                <li ><a href="#" class="profil">my profil</a></li>
-                <li ><a href="#">find conection</a></li>
+    <div class="top">
+        <div class="navbar">
+            <h1 class="title">Profile</h1>
+            <ul class="link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li> <button class="btn"> Sign Out</button></li>
+
             </ul>
-        </div>
-        <button >sign out</button>
-       </div>
-       <div class="main">
-        <div class="usercard">
-            <div class="blue">
-                <img src="./1614265160__images/images/jane-m.jpg" alt="jane-m" class="UI">
-            </div>
-                <h3>jane doe</h3>
-                <div class="location">
-                    <img src="./1614282895__icons/icons/map-marker.png" alt="map-marker" width="20px"> 
-                    <h4>seatel</h4>
+        </div>  
+    </div>
+        <div class="container">
+            <div class="main">
+                <div class="leftcol">
+                    <div class="user-card">
+                        <div class="topcard">
+                            <img src="1614265160__images/images/jane-m.jpg" alt="Jane" class="jane">
+                         </div>
+                         <div class="card-body">
+                            <h1>Jane Doe</h1>
+                            <h3>
+                                <img src="1614282895__icons/icons/map-marker.png" alt="map" class="icon">
+                                Seattle
+                            </h3>
+                            <p>Developer | Enggineer | problem SOLVER <br>
+                            Master of shadows and the Internet!</p>
+                            <p>
+                                <a href="#">
+                                    <img src="1614282895__icons/icons/gear.png" alt="gear" class="icon">
+                                    edit profile
+                                </a>
+                            </p>
+
+                         </div>
+
+                    </div>
+                    <div class="card">
+                        <div class="header">
+                            Education
+                        </div>
+                        <div class="cardbody">
+                            <h2>Coding Dojo Full stack bootcamp</h2>
+                            <p class="date">Dec 2019 - Mar 2020</p>
+                            <p>Triple Black Belt in Pyton ,C#, and MERN...</p>
+                        </div>
+
+                    </div>
+
                 </div>
-                <div>
-                   <p>developer| enginneer | problem solver<br> master of shadows and the internet</p>
+                <div class="rightcol">
+                    <div class="card">
+                        <div class="header">
+                            <span class="connection">2</span>
+                            Connection Requests
+                        </div>
+                        <div class="users">
+                            <span class="userstop">
+                                <img src="1614265160__images/images/todd-s.jpg" alt="todd" class="pic">
+
+                                <span>Todd E.</span>
+                            </span>
+                            <span class="usersbot">
+                                <img src="1614282895__icons/icons/accept-circle.png" alt="accept" class="pic">
+                                <img src="1614282895__icons/icons/close-circle.png" alt="close" class="pic">
+                            </span>
+                        </div>
+                        <div class="users">
+                            <span class="userstop">
+                                <img src="1614265160__images/images/phil-s.jpg" alt="phil" class="pic">
+                                
+                                <span>Phil K.</span>
+                            </span>
+                            <span class="usersbot">
+                                <img src="1614282895__icons/icons/accept-circle.png" alt="accept" class="pic">
+                                <img src="1614282895__icons/icons/close-circle.png" alt="close" class="pic">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="header">
+                            <span class=" connection">500+</span>
+                            Your Connection
+                        </div>
+                        <div class="users">
+                            <span class="userstop">
+                                <img src="1614265160__images/images/adrien-s.jpg" alt="Adren" class="pic">
+                                
+                                <span>Adrien D.</span>
+                            </span>
+                            
+                        
+                        </div>
+                        <div class="users">
+                            <span class="userstop">
+                                <img src="1614265160__images/images/anne-s.jpg" alt="anne" class="pic">
+                                
+                                <span>Anne J.</span>
+                            </span>
+                            
+                        
+                        </div>
+                        <div class="users">
+                            <span class="userstop">
+                                <img src="1614265160__images/images/alayne-s.jpg" alt="Alayne" class="pic">
+                                
+                                <span>Alayne T.</span>
+                            </span>
+                            
+                        
+                        </div>
+                        <div class="users">
+                            <span class="userstop">
+                                <img src="1614265160__images/images/arry-s.jpg" alt="Arry" class="pic">
+                                
+                                <span>Arry S.</span>
+                            </span>
+                            
+                        
+                        </div>
+                        <div class="footer">
+                            <a href="#">View More</a>
+                        </div>
+
+
+                        
+
+
+                    </div>
+                    
+
                 </div>
-                <div>
-                    <img src="./1614282895__icons/icons/gear.png" alt="gear" width="40px">
-                    <a href="">edit profile</a>
-                </div>
+
             </div>
 
-            <div class="education">
-               <h3>Education</h3>
-               <h4>Coding - Dojo bootcamp</h4>
-               <p>Dec 2019 - Mars 2020</p>
-               <p>triple black belt in MERN c# Python</p>
-            </div>
         </div>
-            <div class="sidebar">
-                <div>
-                    <h4><span>2</span>Connection requests</h4>
-                    <div class="profile-preview">
-                        <div>
-                            <img class="profile-pic" src="./1614265160__images/images/todd-s.jpg" alt="">
-                            <h4>Todd E</h4>
-                        </div>
-                        <div>
-                            <img class="profile-pic" src="./1614282895__icons/icons/accept-circle.png" alt="">
-                            <img class="profile-pic" src="./1614282895__icons/icons/close-circle.png" alt="">
-                        </div>
-                    </div>
-                    <div class="profile-preview">
-                        <div>
-                            <img class="profile-pic" src="./1614265160__images/images/phil-s.jpg" alt="">
-                            <h4>Phill K</h4>
-                        </div>
-                        <div>
-                            <img class="profile-pic" src="./1614282895__icons/icons/accept-circle.png" alt="">
-                            <img class="profile-pic" src="./1614282895__icons/icons/close-circle.png" alt="">
-                        </div>
-                        
-                    </div>
-                </div>
-                <div>
-                    <h4><span>500+</span>your Connections</h4>
-                    <div>
-                        <div class="profile-preview">
-                            <img class="profile-pic" src="./1614265160__images//images/adrien-s.jpg" alt="">
-                            <h4>Adrien D</h4>
-                        </div>
-                        <div class="profile-preview">
-                            <img class="profile-pic" src="./1614265160__images/images/anne-s.jpg" alt="">
-                            <h4>Anne J</h4>
-                        </div>
-                        <div class="profile-preview">
-                            <img class="profile-pic" src="./1614265160__images/images/alayne-s.jpg" alt="">
-                            <h4>Alayne T</h4>
-                        </div>
-                        <div class="profile-preview">
-                            <img class="profile-pic" src="./1614265160__images/images/arry-s.jpg" alt="">
-                            <h4>Arry Y</h4>
-                        </div>
-                    </div>
-                    <a href="#">View More</a>
-                </div>
-            </div>
-       </div>
-    </div>
+
     
 </body>
 </html>
